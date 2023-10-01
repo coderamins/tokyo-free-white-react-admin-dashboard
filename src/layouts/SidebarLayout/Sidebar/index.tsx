@@ -97,7 +97,7 @@ function Sidebar() {
         sx={{
           boxShadow: `${theme.sidebar.boxShadow}`
         }}
-        anchor={theme.direction === 'rtl' ? 'right' : 'left'}
+        anchor={theme.direction === 'rtl' ? 'right' : 'right'}
         open={sidebarToggle}
         onClose={closeSidebar}
         variant="temporary"

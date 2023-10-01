@@ -92,7 +92,7 @@ function ApplicationsMessenger() {
             display: { lg: 'none', xs: 'inline-block' }
           }}
           variant="temporary"
-          anchor={theme.direction === 'rtl' ? 'right' : 'left'}
+          anchor={theme.direction === 'rtl' ? 'right' : 'right'}
           open={mobileOpen}
           onClose={handleDrawerToggle}
         >
