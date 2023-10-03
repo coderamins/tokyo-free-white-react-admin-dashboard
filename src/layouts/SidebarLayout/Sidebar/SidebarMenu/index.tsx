@@ -180,28 +180,12 @@ function SidebarMenu() {
   return (
     <>
       <MenuWrapper>
-        <List component="div">
-          <SubMenuWrapper>
-            <List component="div">
-              <ListItem component="div">
-                <Button
-                  disableRipple
-                  component={RouterLink}
-                  onClick={closeSidebar}
-                  to="/overview"
-                  startIcon={<DesignServicesTwoToneIcon />}
-                >
-                  Overview
-                </Button>
-              </ListItem>
-            </List>
-          </SubMenuWrapper>
-        </List>
+        
         <List
           component="div"
           subheader={
             <ListSubheader component="div" disableSticky>
-              Dashboards
+              داشبورد
             </ListSubheader>
           }
         >
@@ -215,7 +199,7 @@ function SidebarMenu() {
                   to="/dashboards/crypto"
                   startIcon={<BrightnessLowTwoToneIcon />}
                 >
-                  Cryptocurrency
+                  سفارشات 
                 </Button>
               </ListItem>
               <ListItem component="div">
@@ -226,7 +210,7 @@ function SidebarMenu() {
                   to="/dashboards/messenger"
                   startIcon={<MmsTwoToneIcon />}
                 >
-                  Messenger
+                  مشتریان
                 </Button>
               </ListItem>
             </List>
@@ -236,7 +220,7 @@ function SidebarMenu() {
           component="div"
           subheader={
             <ListSubheader component="div" disableSticky>
-              Management
+              محصولات
             </ListSubheader>
           }
         >
@@ -250,7 +234,7 @@ function SidebarMenu() {
                   to="/management/transactions"
                   startIcon={<TableChartTwoToneIcon />}
                 >
-                  Transactions List
+                  اعلام بار
                 </Button>
               </ListItem>
             </List>
@@ -285,7 +269,7 @@ function SidebarMenu() {
                   to="/management/profile/settings"
                   startIcon={<DisplaySettingsTwoToneIcon />}
                 >
-                  Account Settings
+                  اعلام بار
                 </Button>
               </ListItem>
             </List>
@@ -295,7 +279,7 @@ function SidebarMenu() {
           component="div"
           subheader={
             <ListSubheader component="div" disableSticky>
-              Components
+              حسابداری
             </ListSubheader>
           }
         >
@@ -320,7 +304,7 @@ function SidebarMenu() {
                   to="/components/modals"
                   startIcon={<BeachAccessTwoToneIcon />}
                 >
-                  Modals
+                  کاربران
                 </Button>
               </ListItem>
               <ListItem component="div">
@@ -331,7 +315,7 @@ function SidebarMenu() {
                   to="/components/accordions"
                   startIcon={<EmojiEventsTwoToneIcon />}
                 >
-                  Accordions
+                  تنظیمات
                 </Button>
               </ListItem>
               <ListItem component="div">

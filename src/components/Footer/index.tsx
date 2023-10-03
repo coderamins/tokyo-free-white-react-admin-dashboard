@@ -18,7 +18,7 @@ function Footer() {
       >
         <Box>
           <Typography variant="subtitle1">
-            &copy; 2022 - Tokyo Free White React Typescript Admin Dashboard
+             سیستم جامع مدیریت فولاد سپهر ایرانیان
           </Typography>
         </Box>
         <Typography
@@ -27,13 +27,13 @@ function Footer() {
           }}
           variant="subtitle1"
         >
-          Crafted by{' '}
+          ایجاد شده توسط{' '}
           <Link
             href="https://bloomui.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            BloomUI.com
+            DMS.com
           </Link>
         </Typography>
       </Box>
