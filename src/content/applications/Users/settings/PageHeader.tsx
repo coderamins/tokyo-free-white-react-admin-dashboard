@@ -2,7 +2,7 @@ import { Typography } from '@mui/material';
 
 function PageHeader() {
   const user = {
-    name: 'Catherine Pike',
+    name: 'رامین صلحی',
     avatar: '/static/images/avatars/1.jpg'
   };
 
